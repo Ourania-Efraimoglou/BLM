@@ -25,6 +25,12 @@ width: 100%;
   object-fit: cover;
 }
 
+@media screen and (max-width: 600px) {
+  #carouselExampleControls img {
+    height: 250px;
+  }
+}
+
 .align-center {
 text-align: center;
 }
