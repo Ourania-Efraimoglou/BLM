@@ -1,0 +1,322 @@
+body {
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.full-width {
+width: 100%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+#carouselExampleControls img {
+  height: 700px;
+  object-fit: cover;
+}
+
+.align-center {
+text-align: center;
+}
+
+
+.btn-primary {
+  margin-bottom: 20px;
+  background-color: crimson;
+  border-color: darkblue;
+}
+
+.col-sm {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+#navbar2 {
+  height: 80px;
+}
+
+#up-arrow {
+  height: 30px; 
+  width: 30px;
+  float: right;
+}
+#up-arrow-link {
+  height: 60px;
+  padding-right: 40px;
+}
+.socialmediaico {
+  height: 40px; 
+  width: 40px;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+.quotes {
+  border:2px solid black;
+  padding:18px 17px 17px 20px;
+  background-color: #F9F8FC;
+}
+
+.q1old {
+  font-size: 27px;
+}
+
+@media screen and (min-width: 601px) {
+  .q1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .q1 {
+    font-size: 16px;
+  }
+}
+.q1 {
+  margin-bottom: 2px;
+}
+.q2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.registration {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mybutton {
+  background-color:#353A3F;
+  padding:6px;
+  margin:0px;
+}
+.emailform {
+  width: 420px;
+  max-width: 80%;
+  height:38px;
+  padding:0;
+  margin:0;
+  vertical-align: middle;
+}
+.form-and-button {
+  margin: 30px auto 0px auto;
+}
+
+.about1 {
+  background-color:#8d8d8dec;
+  margin: 100px 0 25px 0;
+  color: white;
+  padding: 10px 10px 10px 30px;
+  font-size: 22px;
+  min-height:440px ;
+}
+
+.right {
+  float: right;
+}
+
+.about-image {
+  min-width: 180px;
+  max-width: 450px;
+  padding: 0 10px 0 65px;
+  width: 100%;
+}
+
+.about-margin {
+  margin: 25px 0 33px 0;
+}
+
+.img-cell {
+  width:45%;
+}
+
+.about-authors {
+  min-width: 100px;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.img-cell2 {
+  width:25%;
+}
+
+.spacer {
+  margin: 45px;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+h4 {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 55px;
+}
+
+.timeline p span {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 5px;
+  color: #5CBDE4;
+  display:block;
+}
+
+.right img {
+  height: 375px;
+  width: 500px;
+}
+
+.spacer55 {
+  height: 55px;
+}
+
+.banner-help-image {
+  width:100%
+}
+
+
+.help-text {
+  margin: 1px 0 25px 0;
+  height:200px;
+  color: black;
+}
+
+.kadro {
+  border:10px;
+  margin:20px;
+  background:#F9F8FC;
+  border-radius: 12px;
+  padding-top: 6px;
+  border: 1px solid black;
+  font-weight: 100;
+  color:black;
+  border-right:3px solid rgb(122, 122, 122);
+  border-bottom:3px solid rgb(122, 122, 122);
+}
+
+.home-pics {
+  height: 150px;
+  margin-bottom: 16stylepx;
+}
+
+.say-names {
+  color: #9d0208;
+}
+
+.hist-image {
+  float:right;
+  width:40%;
+  min-width:130px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 601px) {
+  .hist-image {
+    margin-top: 170px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hist-image {
+    margin-top: 0;
+  }
+}
+
+.hist-margin10 {
+  margin:70px 5px 0 50px;
+}
+
+#more-link {
+  padding-bottom: 60px;
+}
+#more-dates {
+  display:none;
+}
+
+.more-dates-link {
+  border: 1px solid #22c0e8;
+  padding:5px;
+  border-radius: 4px;
+  background: #4bc7e627;
+  margin-right: 50px;
+}
+
+.table-help {
+  border-spacing: 80px;
+  border-collapse: separate;   
+  width:100%;
+  min-width: 200px;
+}
+.shadow-boxes {
+   box-shadow:5px 5px 20px grey;
+   min-height:300px;
+   font-size:1.5vw;
+   text-align:center;
+   padding: 12px 10px 10px 10px;
+}
+
+.help3-list {
+margin: 10px;
+}
+
+.help-icons {
+  max-height: 200px;
+  min-height: 20px;
+  width: 100%;
+  display: block;
+  margin: 10px auto 12px auto;
+}
